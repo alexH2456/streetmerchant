@@ -1,4 +1,4 @@
-import {Store} from './store';
+import { Store } from './store';
 
 export const AmazonCa: Store = {
   currency: '$',
@@ -309,6 +309,14 @@ export const AmazonCa: Store = {
       series: 'rx6800xt',
       url: 'https://www.amazon.ca/dp/B08PQ585CX',
     },
+    {
+      brand: 'amd',
+      cartUrl:
+        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DKFMSMYK&Quantity.1=1',
+      model: '9800x3d',
+      series: 'ryzen9800x3d',
+      url: 'https://www.amazon.ca/dp/B0DKFMSMYK',
+    }
   ],
   name: 'amazon-ca',
 };
