@@ -1,4 +1,4 @@
-import {Browser, PuppeteerLifeCycleEvent} from 'puppeteer';
+import { Browser, PuppeteerLifeCycleEvent } from 'puppeteer';
 
 export type Element = {
   container?: string;
@@ -71,7 +71,8 @@ export type Series =
   | 'unvr'
   | 'unvr-pro'
   | 'xboxsx'
-  | 'xboxss';
+  | 'xboxss'
+  | 'ryzen9800x3d';
 
 export type Model =
   | 'test:model'
@@ -266,7 +267,8 @@ export type Model =
   | 'xlr8 verto'
   | 'xlr8 uprising'
   | 'xtreme'
-  | 'qick';
+  | 'qick'
+  | '9800x3d';
 
 export type Link = {
   brand: Brand;
@@ -323,7 +325,7 @@ export type Store = {
     ttl?: number;
     waitUntil?: PuppeteerLifeCycleEvent;
     waitForSelector?: string;
-    urls: Array<{series: Series; url: string | string[]}>;
+    urls: Array<{ series: Series; url: string | string[] }>;
   };
   labels: Labels;
   name: string;

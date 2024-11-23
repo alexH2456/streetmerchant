@@ -1,4 +1,4 @@
-import {Store} from './store';
+import { Store } from './store';
 import fetch from 'node-fetch';
 
 export const NeweggCa: Store = {
@@ -1004,6 +1004,13 @@ export const NeweggCa: Store = {
       model: 'tuf',
       series: '3080ti',
       url: 'https://www.newegg.ca/asus-geforce-rtx-3080-ti-tuf-rtx3080ti-12g-gaming/p/N82E16814126510',
+    },
+    {
+      brand: 'amd',
+      itemNumber: '100-100001084WOF',
+      model: '9800x3d',
+      series: 'ryzen9800x3d',
+      url: 'https://www.newegg.ca/amd-ryzen-7-9800x3d-ryzen-7-9000-series-granite-ridge-zen-5-socket-am5-processor/p/N82E16819113877',
     },
   ],
   name: 'newegg-ca',

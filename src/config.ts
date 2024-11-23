@@ -1,5 +1,5 @@
-import {existsSync, readFileSync} from 'fs';
-import {banner} from './banner';
+import { existsSync, readFileSync } from 'fs';
+import { banner } from './banner';
 import dotenv from 'dotenv';
 import path from 'path';
 
@@ -11,14 +11,14 @@ if (process.env.npm_config_conf) {
       path: path.resolve(__dirname, '../../' + process.env.npm_config_conf),
     });
   } else {
-    dotenv.config({path: path.resolve(__dirname, '../../.env')});
+    dotenv.config({ path: path.resolve(__dirname, '../../.env') });
   }
 } else if (existsSync(path.resolve(__dirname, '../../dotenv'))) {
-  dotenv.config({path: path.resolve(__dirname, '../../dotenv')});
+  dotenv.config({ path: path.resolve(__dirname, '../../dotenv') });
 } else if (existsSync(path.resolve(__dirname, '../dotenv'))) {
-  dotenv.config({path: path.resolve(__dirname, '../dotenv')});
+  dotenv.config({ path: path.resolve(__dirname, '../dotenv') });
 } else {
-  dotenv.config({path: path.resolve(__dirname, '../../.env')});
+  dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 }
 
 console.info(
@@ -444,6 +444,7 @@ const store = {
       'unvr-pro': envOrNumber(process.env.MAX_PRICE_SERIES_UNVR_PRO),
       xboxss: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSS),
       xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX),
+      ryzen9800x3d: -1,
     },
   },
   microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
@@ -482,6 +483,7 @@ const store = {
     'unvr-pro',
     'xboxss',
     'xboxsx',
+    'ryzen9800x3d',
   ]),
   stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
