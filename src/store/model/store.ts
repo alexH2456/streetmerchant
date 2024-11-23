@@ -72,7 +72,9 @@ export type Series =
   | 'unvr-pro'
   | 'xboxsx'
   | 'xboxss'
-  | 'ryzen9800x3d';
+  | 'ryzen9800x3d'
+  | '5080'
+  | '5090';
 
 export type Model =
   | 'test:model'

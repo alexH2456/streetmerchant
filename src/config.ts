@@ -444,7 +444,9 @@ const store = {
       'unvr-pro': envOrNumber(process.env.MAX_PRICE_SERIES_UNVR_PRO),
       xboxss: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSS),
       xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX),
-      ryzen9800x3d: -1,
+      ryzen9800x3d: envOrNumber(process.env.MAX_PRICE_SERIES_RYZEN9800X3D),
+      5080: envOrNumber(process.env.MAX_PRICE_SERIES_5080),
+      5090: envOrNumber(process.env.MAX_PRICE_SERIES_5090),
     },
   },
   microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
@@ -484,6 +486,8 @@ const store = {
     'xboxss',
     'xboxsx',
     'ryzen9800x3d',
+    '5080',
+    '5090',
   ]),
   stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
