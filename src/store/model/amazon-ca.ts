@@ -17,7 +17,7 @@ export const AmazonCa: Store = {
       text: ['add to cart'],
     },
     maxPrice: {
-      container: '.a-color-price',
+      container: '.a-price-whole',
     },
     outOfStock: {
       container: '.a-color-price',
@@ -25,14 +25,24 @@ export const AmazonCa: Store = {
     },
   },
   links: [
+    // Test In Stock
     {
       brand: 'test:brand',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B07PBLD2MX&Quantity.1=1',
+        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08166SLDF&Quantity.1=1',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.amazon.ca/dp/B07PBLD2MX',
+      url: 'https://www.amazon.ca/dp/B08166SLDF',
     },
+    // Test OOS
+    // {
+    //   brand: 'test:brand',
+    //   cartUrl:
+    //     'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0BNWJ6WTQ&Quantity.1=1',
+    //   model: 'test:model',
+    //   series: 'test:series',
+    //   url: 'https://www.amazon.ca/dp/B0BNWJ6WTQ',
+    // },
     {
       brand: 'msi',
       cartUrl:

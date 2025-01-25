@@ -13,11 +13,19 @@ export const BestBuyCa: Store = {
     },
   },
   links: [
+    // Test In Stock
+    // {
+    //   brand: 'test:brand',
+    //   model: 'test:model',
+    //   series: 'test:series',
+    //   url: 'https://www.bestbuy.ca/en-ca/product/amd-ryzen-5-7600-6-core-4ghz-desktop-processor/16652025',
+    // },
+    // Test OOS
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.bestbuy.ca/en-ca/product/google-nest-hello-wi-fi-video-doorbell-black-white/12222651',
+      url: 'https://www.bestbuy.ca/en-ca/product/nvidia-geforce-rtx-3080-ti-12gb-gddr6x-video-card/15530045',
     },
     {
       brand: 'msi',

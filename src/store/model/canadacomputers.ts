@@ -4,20 +4,28 @@ export const CanadaComputers: Store = {
   currency: '$',
   labels: {
     inStock: {
-      container: 'div[class="pi-prod-availability"]',
-      text: ['Online In Stock'],
+      container: '.availablity__ship',
+      text: ['available'],
     },
     maxPrice: {
-      container: '.h2-big > strong:nth-child(1)',
+      container: '.current-price-value',
       euroFormat: false,
     },
   },
   links: [
+    // Test In Stock
+    // {
+    //   brand: 'test:brand',
+    //   model: 'test:model',
+    //   series: 'test:series',
+    //   url: 'https://www.canadacomputers.com/product_info.php?item_id=256636&cPath=27_1046_365&language=en',
+    // },
+    // Test OOS
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.canadacomputers.com/product_info.php?item_id=167320&cPath=27_1046_365&language=en',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=268261&language=en',
     },
     {
       brand: 'gigabyte',

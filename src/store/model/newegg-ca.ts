@@ -28,11 +28,19 @@ export const NeweggCa: Store = {
     ],
   },
   links: [
+    // Test In stock
+    // {
+    //   brand: 'test:brand',
+    //   model: 'test:model',
+    //   series: 'test:series',
+    //   url: 'https://www.newegg.ca/asrock-rx6600-cld-8g-amd-radeon-rx-6600-8gb-gddr6/p/N82E16814930066',
+    // },
+    // Test OOS
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.newegg.ca/p/N82E16824475043?Item=N82E16824475043&cm_sp=Homepage_MKPL-_-P3_24-475-043-_-12302020',
+      url: 'https://www.newegg.ca/pny-argb-oc-vcg508016tfxxpb1-o-nvidia-geforce-rtx-5080-16gb-gddr7/p/N82E16814133898',
     },
     {
       brand: 'gigabyte',

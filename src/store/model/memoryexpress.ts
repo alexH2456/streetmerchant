@@ -15,11 +15,19 @@ export const MemoryExpress: Store = {
     },
   },
   links: [
-    {
+    // Test In Stock
+    // {
+    //   brand: 'test:brand',
+    //   model: 'test:model',
+    //   series: 'test:series',
+    //   url: 'https://www.memoryexpress.com/Products/MX00126064',
+    // },
+     // Test OOS
+     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.memoryexpress.com/Products/MX79473',
+      url: 'https://www.memoryexpress.com/Products/MX00131860',
     },
     {
       brand: 'gigabyte',

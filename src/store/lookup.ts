@@ -265,13 +265,13 @@ async function lookup(browser: Browser, store: Store) {
         logger.error(
           `✖ [${proxy}] [${store.name}] ${link.brand} ${link.series} ${
             link.model
-          } - ${(error as Error).message}`
+          } - ${(error as Error).message} - Stacktrace: ${(error as Error).stack}`
         );
       } else {
         logger.error(
           `✖ [${store.name}] ${link.brand} ${link.series} ${link.model} - ${
             (error as Error).message
-          }`
+          } - Stacktrace: ${(error as Error).stack}`
         );
       }
       const client = await page.target().createCDPSession();
