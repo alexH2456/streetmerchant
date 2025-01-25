@@ -282,7 +282,25 @@ export type Model =
   | 'xlr8 verto'
   | 'xlr8 uprising'
   | 'xtreme'
-  | 'qick';
+  | 'qick'
+  | 'astral'
+  | 'astral oc'
+  | 'prime'
+  | 'prime oc'
+  | 'suprim liquid soc'
+  | 'suprim soc'
+  | 'vanguard soc launch edition'
+  | 'gaming trio oc white'
+  | 'gaming trio oc'
+  | 'ventus 3x oc plus'
+  | 'inspire 3x oc'
+  | 'aorus x w'
+  | 'aorus ice'
+  | 'solid'
+  | 'solid oc'
+  | 'amp extreme infinity'
+  | 'argb oc'
+  | 'windforce oc';
 
 export type Link = {
   brand: Brand;
