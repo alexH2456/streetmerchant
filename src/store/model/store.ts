@@ -300,7 +300,8 @@ export type Model =
   | 'solid oc'
   | 'amp extreme infinity'
   | 'argb oc'
-  | 'windforce oc';
+  | 'windforce oc'
+  | 'vanguard soc';
 
 export type Link = {
   brand: Brand;

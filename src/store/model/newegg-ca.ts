@@ -1016,15 +1016,9 @@ export const NeweggCa: Store = {
     // RTX 5090
     {
       brand: 'asus',
-      model: 'tuf',
-      series: '5090',
-      url: 'https://www.newegg.ca/p/N82E16814126752', // TODO: check this link closer to launch
-    },
-    {
-      brand: 'asus',
       model: 'tuf oc',
       series: '5090',
-      url: 'https://www.newegg.ca/p/N82E16814126753', // TODO: check this link closer to launch
+      url: 'https://www.newegg.ca/p/N82E16814126753',
     },
     {
       brand: 'asus',

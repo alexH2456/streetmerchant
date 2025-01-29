@@ -319,6 +319,8 @@ export const AmazonCa: Store = {
       series: 'rx6800xt',
       url: 'https://www.amazon.ca/dp/B08PQ585CX',
     },
+    // RTX 5090
+    // RTX 5080
   ],
   name: 'amazon-ca',
 };
