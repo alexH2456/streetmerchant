@@ -11,7 +11,7 @@ export const MemoryExpress: Store = {
     outOfStock: {
       container:
         '.c-capr-inventory-selector__details-online .c-capr-inventory-store__availability',
-      text: ['Out of Stock', 'Backorder'],
+      text: ['Out of Stock', 'Backorder', 'Not Available'],
     },
   },
   links: [
