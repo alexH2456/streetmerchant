@@ -1,4 +1,4 @@
-import {Page} from 'puppeteer';
+import {ElementHandle, Page} from 'puppeteer';
 import {config} from '../config';
 import {Store} from './model';
 import {logger} from '../logger';
