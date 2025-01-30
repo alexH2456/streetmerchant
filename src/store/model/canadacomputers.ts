@@ -563,12 +563,36 @@ export const CanadaComputers: Store = {
       series: '5090',
       url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=268188&language=en',
     },
+    {
+      brand: 'zotac',
+      model: 'solid oc',
+      series: '5090',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=268284&language=en',
+    },
+    {
+      brand: 'zotac',
+      model: 'solid',
+      series: '5090',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=268283&language=en'
+    },
     // RTX 5080
     {
       brand: 'asus',
       model: 'prime',
       series: '5080',
       url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=268151&language=en',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5080',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=267146&language=en',
+    },
+    {
+      brand: 'asus',
+      model: 'astral oc',
+      series: '5080',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=267145&language=en'
     },
     {
       brand: 'msi',
