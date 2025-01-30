@@ -320,7 +320,231 @@ export const AmazonCa: Store = {
       url: 'https://www.amazon.ca/dp/B08PQ585CX',
     },
     // RTX 5090
+    {
+      brand: 'zotac',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DV6MK91R&Quantity.1=1',
+      model: 'solid oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DV6MK91R'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7L98J1&Quantity.1=1',
+      model: 'gaming trio oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7L98J1'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7JS6BG&Quantity.1=1',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7JS6BG'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7L992Z&Quantity.1=1',
+      model: 'vanguard soc launch edition',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7L992Z'
+    },
+    {
+      brand: 'pny',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTJF8YT4&Quantity.1=1',
+      model: 'gaming',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DTJF8YT4'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7GBNWQ&Quantity.1=1',
+      model: 'gaming oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7GBNWQ'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7KGND2&Quantity.1=1',
+      model: 'vanguard soc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7KGND2'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7GMXHB&Quantity.1=1',
+      model: 'windforce oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7GMXHB'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7GHQMD&Quantity.1=1',
+      model: 'aorus',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7GHQMD'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7JYTXQ&Quantity.1=1',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DT7JYTXQ'
+    },
+    {
+      brand: 'pny',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTJFSSZG&Quantity.1=1',
+      model: 'argb oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DTJFSSZG'
+    },
+    {
+      brand: 'zotac',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DV64SCM8&Quantity.1=1',
+      model: 'amp extreme infinity',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DV64SCM8'
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DS2X13PH&Quantity.1=1',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DS2X13PH'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DVCH9WJH&Quantity.1=1',
+      model: 'aorus ice',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DVCH9WJH'
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DS2Z8854&Quantity.1=1',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DS2Z8854'
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DS2WQZ2M&Quantity.1=1',
+      model: 'astral oc',
+      series: '5090',
+      url: 'https://www.amazon.ca/dp/B0DS2WQZ2M'
+    },
     // RTX 5080
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSXH2P3L&Quantity.1=1',
+      model: 'ventus 3x oc plus',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSXH2P3L'
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DQSMMCSH&Quantity.1=1',
+      model: 'tuf oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DQSMMCSH'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7JVPVH&Quantity.1=1',
+      model: 'aero oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DT7JVPVH'
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DT7H5JYL&Quantity.1=1',
+      model: 'aorus ice',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DT7H5JYL'
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTPG3B1N&Quantity.1=1',
+      model: 'tuf',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DTPG3B1N'
+    },
+    {
+      brand: 'pny',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTJFZ4YS&Quantity.1=1',
+      model: 'gaming',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DTJFZ4YS'
+    },
+    {
+      brand: 'zotac',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTZ441G7&Quantity.1=1',
+      model: 'solid',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DTZ441G7'
+    },
+    {
+      brand: 'zotac',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTZ48TCY&Quantity.1=1',
+      model: 'solid oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DTZ48TCY'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSWRLSD4&Quantity.1=1',
+      model: 'vanguard soc launch edition',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSWRLSD4'
+    },
+    {
+      brand: 'pny',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DTJDR3V9&Quantity.1=1',
+      model: 'argb oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DTJDR3V9'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSWQNGYF&Quantity.1=1',
+      model: 'ventus 3x oc white',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSWQNGYF'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSXKZ2T9&Quantity.1=1',
+      model: 'ventus 3x oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSXKZ2T9'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSXJ5QF4&Quantity.1=1',
+      model: 'suprim soc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSXJ5QF4'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSWP51N3&Quantity.1=1',
+      model: 'vanguard soc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSWP51N3'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSXNXTSS&Quantity.1=1',
+      model: 'gaming trio oc',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSXNXTSS'
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DSXGNFJL&Quantity.1=1',
+      model: 'gaming trio oc white',
+      series: '5080',
+      url: 'https://www.amazon.ca/dp/B0DSXGNFJL'
+    },
   ],
   name: 'amazon-ca',
 };
